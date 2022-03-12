@@ -1,0 +1,19 @@
+body
+{
+    text-align: center;
+}
+h1
+{
+    box-shadow: 5px 5px 5px black;
+    padding: 0%;
+}
+canvas
+{
+    box-shadow: 5px 5px 5px grey;
+    padding: 0%;
+}
+#copyright
+{
+    position: fixed;
+    bottom: 0;
+}
