@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Font Manipulator</title>
-        <link rel="stylesheet" src="style.css">
+        <link rel="stylesheet" type="text/css" src="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -17,11 +17,25 @@
     <body background="background.jpg">
         <center>
         <h1 class="btn-success heading">Font Manipulator
-        <h3>This is for how to use the site(placeholder)</h3>
-        <span id="placeholderid"></span>
+        <h3>Move your wrists away from each other to make your own text grow or shrink! You can add your own colors too!</h3>
+        <span id="ids"></span>
         </h1>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <span>
+            <h4>Word that you want to control:</h4>
+            <textarea id="word"></textarea>
+            </span>
+            <span>
+                <h4>Color of your word!(name, hex, or rgb)</h4>
+                <p>Note: rgb must be structured as rgb(color, color, color)</p>
+        <textarea id="color"></textarea>
+       </span>
+       <br>
+        <button onclick="loadWord();">Load Inputted Data</button>
         <div id="copyright" class="copy_right_footer" >
             Made by Nahom Biniam :)
             </div>
             </center>
+            <script src="main.js"></script>
     </body>
+    </html>
